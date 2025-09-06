@@ -1,1 +1,3 @@
 itlasso-11-largefiles/
+.DS_Store
+sites/default/files/**/*.DS_Store
