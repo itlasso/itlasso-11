@@ -109,3 +109,9 @@
 .header-one__content {
   max-width: 1350px;
 }
+.qr-code-img {
+  border: 30px solid #008080;
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
