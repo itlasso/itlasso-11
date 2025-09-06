@@ -1,0 +1,18 @@
+uuid: 025de042-1638-4ef6-a32f-03a9a9a4fff8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gallery
+id: node.gallery.gva_pagebuilder_content
+field_name: gva_pagebuilder_content
+entity_type: node
+bundle: gallery
+label: 'Page Builder'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

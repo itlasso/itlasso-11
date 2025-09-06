@@ -1,0 +1,33 @@
+uuid: 9e5ca010-379c-4e28-b3d7-e7058faa4816
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_service_issue
+field_name: field_service_issue
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: 0.0
+      label: Computer
+    -
+      value: 1.0
+      label: Email
+    -
+      value: 2.0
+      label: Virus
+    -
+      value: 3.0
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

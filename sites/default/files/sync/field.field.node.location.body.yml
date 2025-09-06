@@ -1,0 +1,26 @@
+uuid: f854b82e-2c8f-4368-afbc-608f4fc6edf6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.location
+  module:
+    - text
+_core:
+  default_config_hash: WAiV_YEuJ28BYR1mPeL2V2AW5qejTG7SnfqWlMvUZIk
+id: node.location.body
+field_name: body
+entity_type: node
+bundle: location
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

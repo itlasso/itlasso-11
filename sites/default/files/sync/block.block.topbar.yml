@@ -1,0 +1,25 @@
+uuid: c099a33b-f534-4d13-b182-aeccc3b6e6b9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a87cb642-bb80-4bd8-9bb0-ed5e2d4da5e0'
+  module:
+    - block_content
+  theme:
+    - notech_subtheme
+id: topbar
+theme: notech_subtheme
+region: topbar
+weight: -13
+provider: null
+plugin: 'block_content:a87cb642-bb80-4bd8-9bb0-ed5e2d4da5e0'
+settings:
+  id: 'block_content:a87cb642-bb80-4bd8-9bb0-ed5e2d4da5e0'
+  label: Topbar
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,83 @@
+{# filepath: modules/custom/itlasso_questionnaire/templates/website-questionnaire.html.twig #}
+<style>
+  .itlasso-questionnaire-container h2 {
+    color: #ffffff !important;
+  }
+  .itlasso-questionnaire-container p {
+    color: #eeeeee;
+  }
+  .itlasso-questionnaire-container {
+    background: #008080;
+    border-radius: 10px;
+    padding: 40px 70px 40px 70px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+  }
+  .itlasso-questionnaire-container label {
+    color: #000808;
+    font-weight: 600;
+    margin-top: 18px;
+    display: block;
+  }
+  .itlasso-questionnaire-container input,
+  .itlasso-questionnaire-container select,
+  .itlasso-questionnaire-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #fff;
+  }
+  .itlasso-questionnaire-container h1 {
+    color: #FF851B !important;
+    text-align: center;
+  }
+  .itlasso-questionnaire-container h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 32px;
+  }
+  .itlasso-questionnaire-container button,
+  .itlasso-questionnaire-container input[type="submit"] {
+    background: #FF851B;
+    color: #fff;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 24px;
+  }
+  .itlasso-questionnaire-container button:hover,
+  .itlasso-questionnaire-container input[type="submit"]:hover {
+    background: #005f5f;
+  }
+  fieldset {
+    margin-bottom: 18px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 14px 18px;
+    background: #fff;
+  }
+  legend {
+    font-weight: bold;
+    color: #008080;
+    font-size: 1.1em;
+  }
+  @media (max-width: 600px) {
+    .itlasso-questionnaire-container { padding: 12px; }
+  }
+</style>
+<div class="itlasso-questionnaire-container">
+  <h1>IT Lasso</h1>
+  <h2>Website Development Questionnaire</h2>
+  <p>
+    Please complete this questionnaire to help us evaluate your website requirements and prepare a free quote.<br>
+    Your responses will be kept confidential.
+  </p>
+  {{ form }}
+</div>

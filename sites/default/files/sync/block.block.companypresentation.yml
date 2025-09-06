@@ -1,0 +1,37 @@
+uuid: a786d245-3e13-437e-a9aa-98a228accacd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9db6746c-07ed-4976-8d06-1a9a56f38e24'
+  module:
+    - block_content
+    - gavias_hook_themer
+    - node
+  theme:
+    - notech_subtheme
+third_party_settings:
+  gavias_hook_themer:
+    classes: ''
+id: companypresentation
+theme: notech_subtheme
+region: sidebar_right
+weight: -6
+provider: null
+plugin: 'block_content:9db6746c-07ed-4976-8d06-1a9a56f38e24'
+settings:
+  id: 'block_content:9db6746c-07ed-4976-8d06-1a9a56f38e24'
+  label: ' Company presentation'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

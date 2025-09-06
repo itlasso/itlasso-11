@@ -1,0 +1,23 @@
+uuid: f422ba5d-ae86-484a-8809-60ea26fbe3d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - notech_subtheme
+id: sitebranding
+theme: notech_subtheme
+region: branding
+weight: -12
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

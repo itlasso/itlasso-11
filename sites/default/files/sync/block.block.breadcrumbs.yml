@@ -1,0 +1,33 @@
+uuid: 372c0274-f1e1-4046-a53a-5d40bac15958
+langcode: en
+status: true
+dependencies:
+  module:
+    - gavias_hook_themer
+    - system
+  theme:
+    - notech_subtheme
+third_party_settings:
+  gavias_hook_themer:
+    breadcrumb_background_image_path: ''
+    breadcrumb_background_color: ''
+    breadcrumb_background_position: 'center top'
+    breadcrumb_background_repeat: no-repeat
+    breadcrumb_color_style: text-dark
+    classes: ''
+id: breadcrumbs
+theme: notech_subtheme
+region: breadcrumbs
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/about-us\r\n/capability\r\n/website-development\r\n/mobile-app-development\r\n/media-production\r\n/technical-services\r\n/contact-us\r\n/computer_service_specialist\r\n/shop"

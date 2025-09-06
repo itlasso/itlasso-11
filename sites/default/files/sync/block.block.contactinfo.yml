@@ -1,0 +1,25 @@
+uuid: 9767a378-24be-4966-8d13-a50f31349a0c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7da38301-272f-4979-8de1-06b564010f17'
+  module:
+    - block_content
+  theme:
+    - notech_subtheme
+id: contactinfo
+theme: notech_subtheme
+region: quick_side
+weight: 0
+provider: null
+plugin: 'block_content:7da38301-272f-4979-8de1-06b564010f17'
+settings:
+  id: 'block_content:7da38301-272f-4979-8de1-06b564010f17'
+  label: 'Contact info'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

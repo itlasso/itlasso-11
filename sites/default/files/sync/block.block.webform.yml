@@ -1,0 +1,26 @@
+uuid: 6a2ec01d-3adf-4b91-82f8-b5bc531851fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - webform
+  theme:
+    - notech_subtheme
+id: webform
+theme: notech_subtheme
+region: other
+weight: -8
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform - Contact'
+  label_display: '0'
+  provider: webform
+  webform_id: contact
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility: {  }

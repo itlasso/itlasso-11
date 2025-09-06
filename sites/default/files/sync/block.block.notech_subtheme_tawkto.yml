@@ -1,0 +1,34 @@
+uuid: 5dd6e1ae-79d6-482e-82cd-8e7c79cb2ac0
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:fb0618ea-7253-48a3-a3d1-26ed10227f69'
+  module:
+    - block_content
+    - gavias_hook_themer
+    - system
+  theme:
+    - notech_subtheme
+third_party_settings:
+  gavias_hook_themer:
+    classes: ''
+id: notech_subtheme_tawkto
+theme: notech_subtheme
+region: footer
+weight: -11
+provider: null
+plugin: 'block_content:fb0618ea-7253-48a3-a3d1-26ed10227f69'
+settings:
+  id: 'block_content:fb0618ea-7253-48a3-a3d1-26ed10227f69'
+  label: Tawk-to
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

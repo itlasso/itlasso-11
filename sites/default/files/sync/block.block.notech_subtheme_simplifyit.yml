@@ -1,0 +1,34 @@
+uuid: e5b64f8e-eeb2-4655-af98-c01604c0c2c0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:simplifyit_video:2556c5b1-c7aa-440c-b31b-defde5eca611'
+  module:
+    - block_content
+    - gavias_hook_themer
+    - system
+  theme:
+    - notech_subtheme
+third_party_settings:
+  gavias_hook_themer:
+    classes: ''
+id: notech_subtheme_simplifyit
+theme: notech_subtheme
+region: slideshow_content
+weight: 0
+provider: null
+plugin: 'block_content:2556c5b1-c7aa-440c-b31b-defde5eca611'
+settings:
+  id: 'block_content:2556c5b1-c7aa-440c-b31b-defde5eca611'
+  label: Simplify-IT
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /shop

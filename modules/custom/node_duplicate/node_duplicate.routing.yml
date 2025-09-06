@@ -1,0 +1,8 @@
+node_duplicate.duplicate:
+  path: '/node/{node}/duplicate'
+  defaults:
+    _controller: '\Drupal\node_duplicate\Controller\NodeDuplicateController::duplicate'
+    _title: 'Duplicate'
+  requirements:
+    _permission: 'create content'
+    node: '\d+'

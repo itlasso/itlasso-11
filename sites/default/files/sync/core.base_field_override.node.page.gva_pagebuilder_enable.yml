@@ -1,0 +1,20 @@
+uuid: 69e4855d-5ed4-4e3b-a8ac-c57c400db065
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.gva_pagebuilder_enable
+field_name: gva_pagebuilder_enable
+entity_type: node
+bundle: page
+label: 'Enable/Display Page Builder'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: enable
+default_value_callback: ''
+settings: {  }
+field_type: string

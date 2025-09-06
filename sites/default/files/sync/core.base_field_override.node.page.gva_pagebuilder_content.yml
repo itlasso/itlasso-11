@@ -1,0 +1,18 @@
+uuid: 505a5475-b57c-490f-96bf-ad62add655e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.gva_pagebuilder_content
+field_name: gva_pagebuilder_content
+entity_type: node
+bundle: page
+label: 'Page Builder'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

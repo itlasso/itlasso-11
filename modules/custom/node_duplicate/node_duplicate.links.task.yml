@@ -1,0 +1,4 @@
+node.node_duplicate_duplicate:
+  route_name: node_duplicate.duplicate
+  title: 'Duplicate'
+  base_route: entity.node.canonical

@@ -1,0 +1,21 @@
+uuid: a30a2315-f7f6-41fc-b75d-0ae4c1ae4f02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_issue
+    - node.type.support_ticket
+  module:
+    - options
+id: node.support_ticket.field_service_issue
+field_name: field_service_issue
+entity_type: node
+bundle: support_ticket
+label: 'Service Issue'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

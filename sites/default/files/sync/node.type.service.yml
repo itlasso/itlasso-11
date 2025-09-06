@@ -1,0 +1,20 @@
+uuid: cdc52125-2bbe-487e-9c5b-443d79070132
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: MDXEMl6INir32a7K8uNEAFrFXrijfNBczNuzCtKwpZc
+name: Technologies
+type: service
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: true

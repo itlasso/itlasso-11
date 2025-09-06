@@ -1,0 +1,43 @@
+display:
+  default:
+    display_title: Standard
+    display_options:
+      fields:
+        filename:
+          label: Name
+        filesize:
+          label: Größe
+        status:
+          label: Status
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: Sortierung
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      filters:
+        status:
+          expose:
+            label: Status
+  page_2:
+    display_options:
+      fields:
+        type:
+          label: Entitätstyp
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      arguments:
+        fid:
+          exception:
+            title: Alle

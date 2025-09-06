@@ -1,0 +1,29 @@
+uuid: a6d464f4-e2cc-483a-a816-042b4da53c15
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - gavias_hook_themer
+    - system
+  theme:
+    - notech_subtheme
+third_party_settings:
+  gavias_hook_themer:
+    classes: ''
+id: notech_subtheme_mainnavigation
+theme: notech_subtheme
+region: main_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

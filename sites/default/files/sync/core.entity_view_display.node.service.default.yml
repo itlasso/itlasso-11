@@ -1,0 +1,40 @@
+uuid: 919906c2-49d5-4984-bea1-91e12bc06233
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.service.body
+    - field.field.node.service.comment
+    - field.field.node.service.field_meta_tags
+    - field.field.node.service.layout_builder__layout
+    - node.type.service
+  module:
+    - metatag
+    - text
+    - user
+_core:
+  default_config_hash: 9aCFVuDMlDJDCiyAPh2Hc0AVL8aoC9UYs9SNKgrBA5Q
+id: node.service.default
+targetEntityType: node
+bundle: service
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_meta_tags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  comment: true
+  langcode: true
+  layout_builder__layout: true
+  links: true

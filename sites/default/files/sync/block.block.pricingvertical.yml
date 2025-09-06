@@ -1,0 +1,25 @@
+uuid: a90c1528-05cd-4523-a417-35d6d6c3dd4d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1c843ac3-312f-4c69-8ff3-5e0dd50a976a'
+  module:
+    - block_content
+  theme:
+    - notech_subtheme
+id: pricingvertical
+theme: notech_subtheme
+region: other
+weight: -11
+provider: null
+plugin: 'block_content:1c843ac3-312f-4c69-8ff3-5e0dd50a976a'
+settings:
+  id: 'block_content:1c843ac3-312f-4c69-8ff3-5e0dd50a976a'
+  label: 'Pricing Vertical'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

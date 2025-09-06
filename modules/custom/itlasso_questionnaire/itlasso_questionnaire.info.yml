@@ -1,0 +1,5 @@
+name: ITLasso Website Questionnaire
+type: module
+description: 'Provides a Website Development Questionnaire block and form.'
+core_version_requirement: ^11 || ^12
+package: Custom

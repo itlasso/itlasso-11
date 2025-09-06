@@ -1,0 +1,40 @@
+uuid: 6b2db863-3e30-469c-b468-ae286f9f1e62
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.webform_default
+  module:
+    - comment
+    - contact
+    - file
+    - filter
+    - fontawesome
+    - gavias_hook_themer
+    - google_analytics
+    - media
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access fontawesome additional settings'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'administer gavias_customize preview'
+  - 'delete own files'
+  - 'opt-in or out of google analytics tracking'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'use text format webform_default'
+  - 'view media'

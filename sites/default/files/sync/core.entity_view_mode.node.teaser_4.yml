@@ -1,0 +1,11 @@
+uuid: 40af8040-21dc-40b9-8601-407520e97220
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_4
+label: 'Teaser 4'
+description: ''
+targetEntityType: node
+cache: true

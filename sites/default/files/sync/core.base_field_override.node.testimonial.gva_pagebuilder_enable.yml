@@ -1,0 +1,20 @@
+uuid: 654996b5-b529-4261-875d-b288671b9e78
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.testimonial
+id: node.testimonial.gva_pagebuilder_enable
+field_name: gva_pagebuilder_enable
+entity_type: node
+bundle: testimonial
+label: 'Enable/Display Page Builder'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: enable
+default_value_callback: ''
+settings: {  }
+field_type: string

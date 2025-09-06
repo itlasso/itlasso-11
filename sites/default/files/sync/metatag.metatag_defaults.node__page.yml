@@ -1,0 +1,13 @@
+uuid: 6f3eb750-d8f5-466a-8c43-2858e8ea49f0
+langcode: en
+status: true
+dependencies: {  }
+id: node__page
+label: 'Content: Job Opportunity'
+tags:
+  canonical_url: '[current-page:url]'
+  description: '[node:summary]'
+  image_src: '[node:field_image]'
+  keywords: '[node:field_keywords]'
+  og_image: '[node:field_image]'
+  title: '[current-page:title] | [site:name]'

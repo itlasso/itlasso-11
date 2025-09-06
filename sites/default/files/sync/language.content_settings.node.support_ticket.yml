@@ -1,0 +1,11 @@
+uuid: 6148208d-8489-4f9b-8c85-adcda332fbc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.support_ticket
+id: node.support_ticket
+target_entity_type_id: node
+target_bundle: support_ticket
+default_langcode: site_default
+language_alterable: false

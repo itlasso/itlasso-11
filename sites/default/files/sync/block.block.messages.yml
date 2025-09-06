@@ -1,0 +1,20 @@
+uuid: 2e5f39ec-f068-419f-a419-10c8a745d6fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - notech_subtheme
+id: messages
+theme: notech_subtheme
+region: help
+weight: -11
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

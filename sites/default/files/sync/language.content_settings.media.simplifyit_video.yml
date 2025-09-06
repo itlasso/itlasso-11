@@ -1,0 +1,11 @@
+uuid: f64263b9-16d2-4b32-9f41-03a1f5760ae3
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.simplifyit_video
+id: media.simplifyit_video
+target_entity_type_id: media
+target_bundle: simplifyit_video
+default_langcode: site_default
+language_alterable: false

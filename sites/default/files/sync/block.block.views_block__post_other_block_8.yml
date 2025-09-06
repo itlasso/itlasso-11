@@ -1,0 +1,24 @@
+uuid: 23cd57e4-e989-4703-92fa-e4fbce68f2ef
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.post_other
+  module:
+    - views
+  theme:
+    - notech_subtheme
+id: views_block__post_other_block_8
+theme: notech_subtheme
+region: quick_side
+weight: 0
+provider: null
+plugin: 'views_block:post_other-block_8'
+settings:
+  id: 'views_block:post_other-block_8'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility: {  }

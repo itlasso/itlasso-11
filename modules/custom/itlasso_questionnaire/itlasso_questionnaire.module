@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function itlasso_questionnaire_theme($existing, $type, $theme, $path) {
+  return [
+    'website_questionnaire' => [
+      'render element' => 'form',
+      'template' => 'website-questionnaire',
+    ],
+  ];
+}

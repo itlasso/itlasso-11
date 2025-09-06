@@ -1,0 +1,21 @@
+uuid: b5bfc60f-fc95-43ba-8d93-2e8e51c27ddc
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - notech_subtheme
+id: searchform
+theme: notech_subtheme
+region: search
+weight: -13
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

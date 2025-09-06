@@ -1,0 +1,22 @@
+uuid: 9ef1d4c3-f8aa-453d-87f3-c4d561b09b20
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.portfolio
+id: node.portfolio.sticky
+field_name: sticky
+entity_type: node
+bundle: portfolio
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

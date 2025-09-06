@@ -1,0 +1,20 @@
+uuid: 3889af0a-70cf-4dc8-9129-6a57d0d7c04c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.team
+  module:
+    - path
+id: node.team.path
+field_name: path
+entity_type: node
+bundle: team
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

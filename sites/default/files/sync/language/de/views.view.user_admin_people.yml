@@ -1,0 +1,37 @@
+display:
+  default:
+    display_title: Standard
+    display_options:
+      fields:
+        name:
+          label: Benutzername
+        status:
+          label: Status
+        roles_target_id:
+          label: Rollen
+        operations:
+          label: Aktionen
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: Sortierung
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      filters:
+        status:
+          group_info:
+            label: Status
+        roles_target_id:
+          expose:
+            label: Rolle
+  page_1:
+    display_options:
+      menu:
+        title: Liste

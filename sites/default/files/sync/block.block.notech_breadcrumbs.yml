@@ -1,0 +1,22 @@
+uuid: 7c27d2c6-455f-4f0c-bb17-69a6bd23bbd1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - notech
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: notech_breadcrumbs
+theme: notech
+region: breadcrumbs
+weight: -8
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

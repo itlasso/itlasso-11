@@ -1,0 +1,25 @@
+uuid: 78bfbb26-7b89-4831-b52b-266050f77abb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4a1ca12f-0764-40bd-a88c-a26020c92ea3'
+  module:
+    - block_content
+  theme:
+    - notech_subtheme
+id: headerright
+theme: notech_subtheme
+region: header_right
+weight: 0
+provider: null
+plugin: 'block_content:4a1ca12f-0764-40bd-a88c-a26020c92ea3'
+settings:
+  id: 'block_content:4a1ca12f-0764-40bd-a88c-a26020c92ea3'
+  label: 'Header right'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

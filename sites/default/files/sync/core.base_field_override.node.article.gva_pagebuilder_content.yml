@@ -1,0 +1,18 @@
+uuid: df24bfb7-10e8-4728-b7d4-d78905dd7f25
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.gva_pagebuilder_content
+field_name: gva_pagebuilder_content
+entity_type: node
+bundle: article
+label: 'Page Builder'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

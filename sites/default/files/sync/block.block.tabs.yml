@@ -1,0 +1,20 @@
+uuid: e7b5edb0-b92f-4fb4-8b42-fee0517c2ab0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - notech_subtheme
+id: tabs
+theme: notech_subtheme
+region: help
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

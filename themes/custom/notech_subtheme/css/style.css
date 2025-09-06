@@ -1,0 +1,111 @@
+.panel .panel-heading .panel-title {
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 0;
+  background: #008080;
+  padding: 0 10px 0;
+}
+.panel .panel-body {
+  line-height: 28px;
+  padding: 10px 30px 0;
+  border: 1px #cccccc solid !important;
+}
+.panel-title > a {
+  color: #ffffff !important;
+}
+.panel-title > a:hover {
+  color: var(--topbar-color-icon) !important;
+}
+.panel.panel-default {
+  padding: 8px;
+}
+.gsc-heading__title {
+  font-size: 40px;
+  color: #008080;;
+}
+.widget.gsc-block-drupal.title-align-left .block-title {
+  color: var(--topbar-color-icon);
+}
+.block .block-title:before {
+  background: var(--topbar-color-icon);
+}
+.sidebar .block-menu ul li a {
+  color: #008080;
+}
+.color-theme {
+  color: var(--topbar-color-icon) !important;
+}
+.gbb-row .bb-inner {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.gsc-heading {
+  padding: 0 0 20px;
+}
+.gsc-accordion .panel-group.skin-white .panel {
+  border: 1px solid #e1e5e8 !important;
+  margin-bottom: 15px;
+}
+.el-66356846 > .bb-inner {
+  padding-top: 30px !important;
+  padding-bottom: 20px !important;
+}
+.business-heading__one span:after, .business-heading__one span:before {
+  content: '';
+  width: 1000px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  background: #DDDDE2;
+}
+.business-heading__one {
+  margin: 20px 0 40px 0;
+}
+.el-84223881 > .bb-inner {
+  padding-top: 0px;
+  padding-bottom: 30px !important;
+}
+@media (min-width: 1024.1px) {
+  .button, .btn, .btn-white, .btn-theme, .btn-black, .btn-theme-second, .more-link, .btn-theme-submit a:hover {
+    color: #fff;
+    background-color: transparent;
+    background-image: linear-gradient(94deg, #000000 0.99%, #FF851B 100%);
+    margin: -1px 0px 0px 0px;
+    padding: 18px 58px 18px 35px;
+    border-radius: 6px 6px 6px 6px;
+  }
+}
+#footer {
+  color: var(--footer-color);
+  font-size: var(--footer-color);
+  background: url(../images/bg-footer.png) no-repeat left top #293030;
+  background-size: cover;
+}
+.iconbox-seven__icon-inner .icon {
+  color: #ffffff;;
+  background: #FF851B;
+  display: -webkit-box;
+}
+.block-views-blockcontact-us-map-block-1 {
+  margin-bottom: 0px;
+}
+.el-40605528 {
+  border: solid 1px #cecece;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #ededed;
+  margin-top: 40px;
+}
+.webform-submission-form .form-item input {
+  line-height: 28px;
+}
+.el-85449417 > .bb-inner {
+  background: #008080;
+  padding: 30px;
+}
+.bb-container.container-wide {
+  max-width: 1350px;
+}
+.header-one__content {
+  max-width: 1350px;
+}

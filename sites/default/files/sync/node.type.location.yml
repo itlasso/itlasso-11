@@ -1,0 +1,20 @@
+uuid: e64c02e0-da73-4b7c-9856-24232b7ecbbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: CXVz7s0BBvel-Cfzbi6TMglQAYVYPYmCUk2l4hykU5M
+name: Location
+type: location
+description: 'Location Map '
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

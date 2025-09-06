@@ -1,0 +1,23 @@
+uuid: 4ba0ef6c-43cf-4dd2-ab7b-585cc485f1a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 6GabyYqVAfcH4n7osYTDqncna1e6HVPVv6tH0sv7B1M
+id: node.field_location_map
+field_name: field_location_map
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

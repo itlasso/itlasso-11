@@ -1,0 +1,35 @@
+display:
+  default:
+    display_title: Standard
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: Aktion
+        bundle:
+          label: Typ
+        status:
+          label: Status
+        changed:
+          label: Aktualisiert
+        operations:
+          label: Aktionen
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: Sortierung
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      filters:
+        bundle:
+          expose:
+            label: Typ
+        langcode:
+          expose:
+            label: Sprache

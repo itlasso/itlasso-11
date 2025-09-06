@@ -1,0 +1,208 @@
+uuid: 6129773b-3ce1-4d64-ac05-680091279391
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.support_ticket.body
+    - field.field.node.support_ticket.field_company_name
+    - field.field.node.support_ticket.field_date
+    - field.field.node.support_ticket.field_email
+    - field.field.node.support_ticket.field_meta_tags
+    - field.field.node.support_ticket.field_name
+    - field.field.node.support_ticket.field_phone_number
+    - field.field.node.support_ticket.field_service_description
+    - field.field.node.support_ticket.field_service_issue
+    - field.field.node.support_ticket.layout_builder__layout
+    - node.type.support_ticket
+  module:
+    - datetime
+    - layout_builder
+    - layout_discovery
+    - options
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          782af402-a9d8-4202-ab16-356259d54a82:
+            uuid: 782af402-a9d8-4202-ab16-356259d54a82
+            region: content
+            configuration:
+              id: 'field_block:node:support_ticket:field_date'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: datetime_default
+                label: inline
+                settings:
+                  timezone_override: America/New_York
+                  format_type: html_date
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          946d588c-a6df-4ce8-8dd8-d929e6a1bbc3:
+            uuid: 946d588c-a6df-4ce8-8dd8-d929e6a1bbc3
+            region: content
+            configuration:
+              id: 'field_block:node:support_ticket:field_company_name'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          9099fcf5-4f1a-424e-8be7-8495432c04d7:
+            uuid: 9099fcf5-4f1a-424e-8be7-8495432c04d7
+            region: content
+            configuration:
+              id: 'field_block:node:support_ticket:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          53508b53-cf44-4a29-971c-19ece6e8cd4e:
+            uuid: 53508b53-cf44-4a29-971c-19ece6e8cd4e
+            region: content
+            configuration:
+              id: 'field_block:node:support_ticket:field_name'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          77638b8a-a968-4d28-a6e7-64537e87ac71:
+            uuid: 77638b8a-a968-4d28-a6e7-64537e87ac71
+            region: content
+            configuration:
+              id: 'field_block:node:support_ticket:field_email'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: basic_string
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          a7e99919-5518-43a6-9dc7-b41bdd99f5fc:
+            uuid: a7e99919-5518-43a6-9dc7-b41bdd99f5fc
+            region: content
+            configuration:
+              id: 'field_block:node:support_ticket:field_service_issue'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: list_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          ef7aa63f-e5ce-40cf-a2b3-d659795f8faa:
+            uuid: ef7aa63f-e5ce-40cf-a2b3-d659795f8faa
+            region: content
+            configuration:
+              id: 'field_block:node:support_ticket:field_service_description'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: basic_string
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+        third_party_settings: {  }
+id: node.support_ticket.full
+targetEntityType: node
+bundle: support_ticket
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_company_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: America/New_York
+      format_type: html_date
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_service_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_service_issue:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden:
+  field_meta_tags: true
+  field_phone_number: true
+  langcode: true
+  layout_builder__layout: true
+  links: true
