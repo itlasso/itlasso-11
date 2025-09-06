@@ -9,12 +9,10 @@ dependencies:
     - field.field.node.event.field_event_map
     - field.field.node.event.field_event_start
     - field.field.node.event.field_event_time
-    - field.field.node.event.field_meta_tags
     - node.type.event
   module:
     - datetime
     - image
-    - metatag
     - text
     - user
 _core:
@@ -74,13 +72,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 105
-    region: content
-  field_meta_tags:
-    type: metatag_empty_formatter
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 107
     region: content
   links:
     settings: {  }

@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.testimonial.body
-    - field.field.node.testimonial.field_meta_tags
     - field.field.node.testimonial.field_testimonial_avatar
     - field.field.node.testimonial.field_testimonial_image
     - field.field.node.testimonial.field_testimonial_job
@@ -36,7 +35,6 @@ content:
     weight: 100
     region: content
 hidden:
-  field_meta_tags: true
   field_testimonial_avatar: true
   field_testimonial_image: true
   field_testimonial_job: true

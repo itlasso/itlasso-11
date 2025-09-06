@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
-    - field.field.node.article.field_meta_tags
     - field.field.node.article.field_post_category
     - field.field.node.article.field_post_embed
     - field.field.node.article.field_post_format
@@ -69,7 +68,6 @@ content:
     region: content
 hidden:
   comment: true
-  field_meta_tags: true
   field_post_embed: true
   field_post_format: true
   field_post_gallery: true

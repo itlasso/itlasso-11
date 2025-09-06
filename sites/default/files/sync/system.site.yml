@@ -2,8 +2,8 @@ _core:
   default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
 langcode: en
 uuid: e652c8c3-1b8e-40bc-bced-de3282f72a01
-name: 'IT Lasso'
-mail: support@itlasso.com
+name: 'IT Lasso, LLC'
+mail: office@itlasso.com
 slogan: ''
 page:
   403: ''
@@ -12,4 +12,4 @@ page:
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
-mail_notification: ''
+mail_notification: null

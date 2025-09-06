@@ -13,7 +13,7 @@ third_party_settings:
 id: block_sliders_2
 theme: notech_subtheme
 region: other
-weight: -12
+weight: -11
 provider: null
 plugin: 'gavias_sliderlayer_block:gavias_sliderlayer_block____2'
 settings:

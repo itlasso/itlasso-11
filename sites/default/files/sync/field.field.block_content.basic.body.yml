@@ -5,7 +5,6 @@ dependencies:
   config:
     - block_content.type.basic
     - field.storage.block_content.body
-    - filter.format.full_html
   module:
     - text
 _core:
@@ -17,12 +16,10 @@ bundle: basic
 label: Body
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   display_summary: false
   required_summary: false
-  allowed_formats:
-    - full_html
 field_type: text_with_summary

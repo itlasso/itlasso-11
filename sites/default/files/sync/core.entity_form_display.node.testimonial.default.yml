@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.testimonial.body
-    - field.field.node.testimonial.field_meta_tags
     - field.field.node.testimonial.field_testimonial_avatar
     - field.field.node.testimonial.field_testimonial_image
     - field.field.node.testimonial.field_testimonial_job
@@ -15,7 +14,6 @@ dependencies:
   module:
     - image
     - imce
-    - metatag
     - path
     - text
 _core:
@@ -40,14 +38,6 @@ content:
     weight: 2
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_meta_tags:
-    type: metatag_firehose
-    weight: 131
-    region: content
-    settings:
-      sidebar: true
-      use_details: true
     third_party_settings: {  }
   field_testimonial_avatar:
     type: image_image
@@ -160,16 +150,6 @@ content:
     region: content
     settings:
       display_label: true
-    third_party_settings: {  }
-  simple_sitemap:
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  simple_sitemap_index_now:
-    weight: 130
-    region: content
-    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox

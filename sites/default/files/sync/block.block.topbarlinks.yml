@@ -15,7 +15,7 @@ third_party_settings:
 id: topbarlinks
 theme: notech_subtheme
 region: topbar_right
-weight: -12
+weight: -11
 provider: null
 plugin: 'block_content:4a1ca12f-0764-40bd-a88c-a26020c92ea3'
 settings:

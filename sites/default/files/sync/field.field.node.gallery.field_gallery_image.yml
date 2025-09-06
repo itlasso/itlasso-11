@@ -6,14 +6,7 @@ dependencies:
     - field.storage.node.field_gallery_image
     - node.type.gallery
   module:
-    - content_translation
     - image
-third_party_settings:
-  content_translation:
-    translation_sync:
-      alt: alt
-      title: title
-      file: '0'
 _core:
   default_config_hash: n_mlgYo79FnS4lvpVBSIsFfzCg3zHdF_8g_WUXuTTAc
 id: node.gallery.field_gallery_image
@@ -23,7 +16,7 @@ bundle: gallery
 label: 'Gallery Image'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

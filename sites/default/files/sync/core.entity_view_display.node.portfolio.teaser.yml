@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.portfolio.body
-    - field.field.node.portfolio.field_meta_tags
     - field.field.node.portfolio.field_portfolio_images
     - field.field.node.portfolio.field_portfolio_tags
     - image.style.height
@@ -54,5 +53,4 @@ content:
     weight: 0
     region: content
 hidden:
-  field_meta_tags: true
   langcode: true

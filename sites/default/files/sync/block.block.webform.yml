@@ -11,7 +11,7 @@ dependencies:
 id: webform
 theme: notech_subtheme
 region: other
-weight: -8
+weight: -7
 provider: null
 plugin: webform_block
 settings:

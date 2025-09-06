@@ -6,14 +6,7 @@ dependencies:
     - field.storage.node.field_post_gallery
     - node.type.article
   module:
-    - content_translation
     - image
-third_party_settings:
-  content_translation:
-    translation_sync:
-      alt: alt
-      title: title
-      file: '0'
 _core:
   default_config_hash: Tw-gLOPpg6X8E2LAbJ4UOvY8pKPooMnQkz7eoTotUc0
 id: node.article.field_post_gallery
@@ -23,7 +16,7 @@ bundle: article
 label: 'Post Gallery'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

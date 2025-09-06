@@ -1,0 +1,20 @@
+uuid: a09a8604-992d-4364-b69e-1d840d251f4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - mailchimp_signup
+  theme:
+    - notech_subtheme
+id: mailchimpsubscriptionformsubscribenewsletter_2
+theme: notech_subtheme
+region: other
+weight: -8
+provider: null
+plugin: 'mailchimp_signup_subscribe_block:subscribe_newsletter'
+settings:
+  id: 'mailchimp_signup_subscribe_block:subscribe_newsletter'
+  label: 'Subscribe Newsletter'
+  label_display: '0'
+  provider: mailchimp_signup
+visibility: {  }

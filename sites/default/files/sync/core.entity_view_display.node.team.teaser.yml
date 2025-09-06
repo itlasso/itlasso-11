@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.team.body
-    - field.field.node.team.field_meta_tags
     - field.field.node.team.field_team_contact
     - field.field.node.team.field_team_description
     - field.field.node.team.field_team_education
@@ -13,7 +12,6 @@ dependencies:
     - field.field.node.team.field_team_facebook
     - field.field.node.team.field_team_google
     - field.field.node.team.field_team_image
-    - field.field.node.team.field_team_linkedin
     - field.field.node.team.field_team_name
     - field.field.node.team.field_team_pinterest
     - field.field.node.team.field_team_position
@@ -80,14 +78,12 @@ content:
     weight: 0
     region: content
 hidden:
-  field_meta_tags: true
   field_team_contact: true
   field_team_description: true
   field_team_education: true
   field_team_email: true
   field_team_facebook: true
   field_team_google: true
-  field_team_linkedin: true
   field_team_pinterest: true
   field_team_skills: true
   field_team_twitter: true

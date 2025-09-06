@@ -4,13 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.portfolio.body
-    - field.field.node.portfolio.field_meta_tags
     - field.field.node.portfolio.field_portfolio_images
     - field.field.node.portfolio.field_portfolio_tags
     - node.type.portfolio
   module:
     - image
-    - metatag
     - text
     - user
 _core:
@@ -26,13 +24,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 2
-    region: content
-  field_meta_tags:
-    type: metatag_empty_formatter
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 7
     region: content
   field_portfolio_images:
     type: image

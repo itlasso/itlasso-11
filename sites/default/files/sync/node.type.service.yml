@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 _core:
   default_config_hash: MDXEMl6INir32a7K8uNEAFrFXrijfNBczNuzCtKwpZc
-name: Technologies
+name: Service
 type: service
 description: null
 help: null

@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: x8k6uOqmSHPqpp71jYGxHF3_SAs3U-Pha3YCntQIhPU
+langcode: en
+api_key: d1499ef547c21840fbce015a0a327301-us20
+api_timeout: 10
+cron: false
+batch_limit: 100
+api_classname: Mailchimp\Mailchimp
+test_mode: false
+enable_connected: false
+connected_id: null
+connected_paths: null
+webhook_hash: bf1195e427f77f77983b86bc7222c62e
+optin_check_email_msg: 'Please check your email to confirm your subscription.'

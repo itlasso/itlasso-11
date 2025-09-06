@@ -6,14 +6,7 @@ dependencies:
     - field.storage.node.field_event_image
     - node.type.event
   module:
-    - content_translation
     - image
-third_party_settings:
-  content_translation:
-    translation_sync:
-      alt: alt
-      title: title
-      file: '0'
 _core:
   default_config_hash: 1uMglWxGMXQHOF70SbA735ALjFhvpVPl-yn9jUnYZ9g
 id: node.event.field_event_image
@@ -23,7 +16,7 @@ bundle: event
 label: 'Event Image'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

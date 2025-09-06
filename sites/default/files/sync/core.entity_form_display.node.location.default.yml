@@ -8,13 +8,11 @@ dependencies:
     - field.field.node.location.field_location_image
     - field.field.node.location.field_location_link
     - field.field.node.location.field_location_map
-    - field.field.node.location.field_meta_tags
     - image.style.thumbnail
     - node.type.location
   module:
     - image
     - imce
-    - metatag
     - path
     - text
 _core:
@@ -73,14 +71,6 @@ content:
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  field_meta_tags:
-    type: metatag_firehose
-    weight: 131
-    region: content
-    settings:
-      sidebar: true
-      use_details: true
     third_party_settings: {  }
   gva_box_layout:
     type: options_select
@@ -149,16 +139,6 @@ content:
     region: content
     settings:
       display_label: true
-    third_party_settings: {  }
-  simple_sitemap:
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  simple_sitemap_index_now:
-    weight: 130
-    region: content
-    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox

@@ -11,7 +11,7 @@ dependencies:
 id: topbar
 theme: notech_subtheme
 region: topbar
-weight: -13
+weight: 0
 provider: null
 plugin: 'block_content:a87cb642-bb80-4bd8-9bb0-ed5e2d4da5e0'
 settings:

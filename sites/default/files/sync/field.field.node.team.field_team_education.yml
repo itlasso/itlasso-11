@@ -14,7 +14,7 @@ bundle: team
 label: 'Team Education'
 description: 'Sample: MBA, Rotterdam School of Management, Erasmus University'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

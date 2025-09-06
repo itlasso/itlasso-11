@@ -8,20 +8,8 @@ definitions:
     expanded: false
     enabled: true
   standard__front_page:
-    weight: -49
     menu_name: main
     parent: ''
-    enabled: false
+    weight: -50
     expanded: true
-  'admin_toolbar_tools__extra_links:entity__node_type__edit_form__support_ticket':
     enabled: false
-    menu_name: admin
-    parent: entity.node_type.collection
-    expanded: false
-    weight: 0
-  'admin_toolbar_tools__extra_links:node__add__support_ticket':
-    enabled: false
-    menu_name: admin
-    parent: 'admin_toolbar_tools.extra_links:node.add'
-    expanded: false
-    weight: 0

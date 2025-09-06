@@ -5,11 +5,9 @@ dependencies:
   config:
     - field.field.node.gallery.body
     - field.field.node.gallery.field_gallery_image
-    - field.field.node.gallery.field_meta_tags
     - node.type.gallery
   module:
     - image
-    - metatag
     - text
     - user
 _core:
@@ -36,13 +34,6 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 104
-    region: content
-  field_meta_tags:
-    type: metatag_empty_formatter
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 105
     region: content
   links:
     settings: {  }

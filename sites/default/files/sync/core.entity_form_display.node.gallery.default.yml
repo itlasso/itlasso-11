@@ -5,12 +5,10 @@ dependencies:
   config:
     - field.field.node.gallery.body
     - field.field.node.gallery.field_gallery_image
-    - field.field.node.gallery.field_meta_tags
     - image.style.thumbnail
     - node.type.gallery
   module:
     - image
-    - metatag
     - path
     - text
 _core:
@@ -43,14 +41,6 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
-  field_meta_tags:
-    type: metatag_firehose
-    weight: 131
-    region: content
-    settings:
-      sidebar: true
-      use_details: true
     third_party_settings: {  }
   gva_box_layout:
     type: options_select
@@ -120,16 +110,6 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
-  simple_sitemap:
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  simple_sitemap_index_now:
-    weight: 130
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   status:
     type: boolean_checkbox
     weight: 120
@@ -151,11 +131,6 @@ content:
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  translation:
-    weight: 10
-    region: content
-    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete

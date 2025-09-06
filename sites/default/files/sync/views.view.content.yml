@@ -1,6 +1,6 @@
 uuid: 74885623-97f5-4693-a675-b18e4f87de70
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - node
@@ -249,13 +249,13 @@ display:
       pager:
         type: full
         options:
-          pagination_heading_level: h4
           items_per_page: 50
           tags:
             next: 'Next ›'
             previous: '‹ Previous'
             first: '« First'
             last: 'Last »'
+          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:

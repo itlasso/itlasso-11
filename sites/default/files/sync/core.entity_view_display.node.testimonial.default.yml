@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.testimonial.body
-    - field.field.node.testimonial.field_meta_tags
     - field.field.node.testimonial.field_testimonial_avatar
     - field.field.node.testimonial.field_testimonial_image
     - field.field.node.testimonial.field_testimonial_job
@@ -13,7 +12,6 @@ dependencies:
     - node.type.testimonial
   module:
     - image
-    - metatag
     - text
     - user
 _core:
@@ -29,13 +27,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
-    region: content
-  field_meta_tags:
-    type: metatag_empty_formatter
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 109
     region: content
   field_testimonial_avatar:
     type: image

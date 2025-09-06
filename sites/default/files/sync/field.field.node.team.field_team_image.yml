@@ -6,14 +6,7 @@ dependencies:
     - field.storage.node.field_team_image
     - node.type.team
   module:
-    - content_translation
     - image
-third_party_settings:
-  content_translation:
-    translation_sync:
-      alt: alt
-      title: title
-      file: '0'
 _core:
   default_config_hash: oHzG2QM5_THPUsqBmVjddF-Z1wVWd_Uxton9_Re1ieA
 id: node.team.field_team_image
@@ -23,7 +16,7 @@ bundle: team
 label: 'Team Image'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

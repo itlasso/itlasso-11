@@ -14,7 +14,7 @@ bundle: team
 label: 'Team contact'
 description: 'Sample: Phone : 61 3 8376 6284 or Email : youremail@gmail.com'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

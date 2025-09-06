@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.team.body
-    - field.field.node.team.field_meta_tags
     - field.field.node.team.field_team_contact
     - field.field.node.team.field_team_description
     - field.field.node.team.field_team_education
@@ -12,7 +11,6 @@ dependencies:
     - field.field.node.team.field_team_facebook
     - field.field.node.team.field_team_google
     - field.field.node.team.field_team_image
-    - field.field.node.team.field_team_linkedin
     - field.field.node.team.field_team_name
     - field.field.node.team.field_team_pinterest
     - field.field.node.team.field_team_position
@@ -22,7 +20,6 @@ dependencies:
     - node.type.team
   module:
     - image
-    - metatag
     - text
     - user
 _core:
@@ -37,14 +34,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
-    region: content
-  field_meta_tags:
-    type: metatag_empty_formatter
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 11
+    weight: 101
     region: content
   field_team_contact:
     type: string
@@ -52,14 +42,14 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 109
     region: content
   field_team_description:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 9
+    weight: 114
     region: content
   field_team_education:
     type: string
@@ -67,14 +57,14 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 6
+    weight: 110
     region: content
   field_team_email:
     type: basic_string
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 8
+    weight: 113
     region: content
   field_team_image:
     type: image
@@ -85,7 +75,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 2
+    weight: 104
     region: content
   field_team_name:
     type: string
@@ -93,7 +83,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 3
+    weight: 106
     region: content
   field_team_position:
     type: string
@@ -101,14 +91,14 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 4
+    weight: 107
     region: content
   field_team_quote:
     type: basic_string
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 7
+    weight: 111
     region: content
   field_team_skills:
     type: string
@@ -116,17 +106,16 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 10
+    weight: 115
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 100
     region: content
 hidden:
   field_team_facebook: true
   field_team_google: true
-  field_team_linkedin: true
   field_team_pinterest: true
   field_team_twitter: true
   langcode: true

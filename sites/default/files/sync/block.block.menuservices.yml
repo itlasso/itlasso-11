@@ -15,7 +15,7 @@ third_party_settings:
 id: menuservices
 theme: notech_subtheme
 region: other
-weight: -10
+weight: -9
 provider: null
 plugin: 'system_menu_block:menu-services'
 settings:

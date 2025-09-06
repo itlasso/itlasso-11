@@ -8,11 +8,10 @@ dependencies:
     - field.field.node.location.field_location_image
     - field.field.node.location.field_location_link
     - field.field.node.location.field_location_map
-    - field.field.node.location.field_meta_tags
     - node.type.location
   module:
     - image
-    - metatag
+    - simple_gmap
     - text
     - user
 _core:
@@ -27,54 +26,66 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
   field_location_address:
-    type: string
-    label: above
+    type: simple_gmap
+    label: hidden
     settings:
-      link_to_entity: false
+      include_map: true
+      include_static_map: true
+      include_link: true
+      include_text: false
+      iframe_height: '300'
+      iframe_width: 100%
+      iframe_title: ''
+      static_scale: 1
+      zoom_level: 14
+      link_text: 'View larger map'
+      map_type: m
+      langcode: en
+      apikey: AIzaSyBmhn8dSpWl7CCsm6btiH5c0KZLhVhM6Ds
+      alt_text: 'Map location: %address'
     third_party_settings: {  }
-    weight: 104
+    weight: 3
     region: content
   field_location_image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 103
+    weight: 2
     region: content
   field_location_link:
-    type: string
-    label: above
+    type: simple_gmap
+    label: hidden
     settings:
-      link_to_entity: false
+      include_map: true
+      include_static_map: false
+      include_link: false
+      include_text: false
+      iframe_height: '200'
+      iframe_width: '200'
+      iframe_title: ''
+      static_scale: 1
+      zoom_level: 14
+      link_text: 'View larger map'
+      map_type: m
+      langcode: en
+      apikey: ''
+      alt_text: 'Map location: %address'
     third_party_settings: {  }
-    weight: 105
-    region: content
-  field_location_map:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 102
-    region: content
-  field_meta_tags:
-    type: metatag_empty_formatter
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 106
+    weight: 4
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
+  field_location_map: true
   langcode: true

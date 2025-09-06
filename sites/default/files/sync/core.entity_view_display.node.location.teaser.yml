@@ -9,7 +9,6 @@ dependencies:
     - field.field.node.location.field_location_image
     - field.field.node.location.field_location_link
     - field.field.node.location.field_location_map
-    - field.field.node.location.field_meta_tags
     - node.type.location
   module:
     - text
@@ -39,5 +38,4 @@ hidden:
   field_location_image: true
   field_location_link: true
   field_location_map: true
-  field_meta_tags: true
   langcode: true

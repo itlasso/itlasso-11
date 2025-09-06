@@ -1,0 +1,97 @@
+uuid: c65dd175-6626-4514-8396-c53130120764
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.location.body
+    - field.field.node.location.field_location_address
+    - field.field.node.location.field_location_image
+    - field.field.node.location.field_location_link
+    - field.field.node.location.field_location_map
+    - node.type.location
+  module:
+    - image
+    - layout_builder
+    - simple_gmap
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: W4Rib2ovDaGulpUWfI0hNjMdwfZ6ZgLOfAH5rSvPhT0
+id: node.location.full
+targetEntityType: node
+bundle: location
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_location_address:
+    type: simple_gmap
+    label: hidden
+    settings:
+      include_map: true
+      include_static_map: false
+      include_link: true
+      include_text: false
+      iframe_height: '300'
+      iframe_width: 100%
+      iframe_title: ''
+      static_scale: 1
+      zoom_level: 14
+      link_text: 'View larger map'
+      map_type: m
+      langcode: en
+      apikey: ''
+      alt_text: 'Map location: %address'
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_location_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_location_link:
+    type: simple_gmap
+    label: above
+    settings:
+      include_map: true
+      include_static_map: false
+      include_link: false
+      include_text: false
+      iframe_height: '200'
+      iframe_width: '200'
+      iframe_title: ''
+      static_scale: 1
+      zoom_level: 14
+      link_text: 'View larger map'
+      map_type: m
+      langcode: en
+      apikey: ''
+      alt_text: 'Map location: %address'
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_location_map: true
+  langcode: true

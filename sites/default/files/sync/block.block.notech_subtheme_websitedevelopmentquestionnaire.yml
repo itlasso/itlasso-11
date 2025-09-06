@@ -1,0 +1,29 @@
+uuid: 8f0eed82-36be-4c22-8231-6ca870d9768a
+langcode: en
+status: true
+dependencies:
+  module:
+    - gavias_hook_themer
+    - itlasso_questionnaire
+    - system
+  theme:
+    - notech_subtheme
+third_party_settings:
+  gavias_hook_themer:
+    classes: ''
+id: notech_subtheme_websitedevelopmentquestionnaire
+theme: notech_subtheme
+region: content
+weight: 0
+provider: null
+plugin: website_questionnaire_block
+settings:
+  id: website_questionnaire_block
+  label: 'Website Development Questionnaire'
+  label_display: '0'
+  provider: itlasso_questionnaire
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /website-questionnaire

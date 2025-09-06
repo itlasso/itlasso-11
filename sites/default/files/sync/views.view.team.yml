@@ -8,7 +8,6 @@ dependencies:
     - field.storage.node.field_team_facebook
     - field.storage.node.field_team_google
     - field.storage.node.field_team_image
-    - field.storage.node.field_team_linkedin
     - field.storage.node.field_team_name
     - field.storage.node.field_team_position
     - field.storage.node.field_team_twitter
@@ -575,7 +574,6 @@ display:
         - 'config:field.storage.node.field_team_facebook'
         - 'config:field.storage.node.field_team_google'
         - 'config:field.storage.node.field_team_image'
-        - 'config:field.storage.node.field_team_linkedin'
         - 'config:field.storage.node.field_team_name'
         - 'config:field.storage.node.field_team_position'
         - 'config:field.storage.node.field_team_twitter'
@@ -775,11 +773,11 @@ display:
           items_md: '3'
           items_sm: '2'
           items_xs: '2'
-          loop: 0
-          speed: '2000'
+          loop: 1
+          speed: '200'
           auto_play: 1
-          auto_play_speed: '4000'
-          auto_play_timeout: '4000'
+          auto_play_speed: '1000'
+          auto_play_timeout: '3000'
           auto_play_hover: 1
           navigation: 1
           rewind_nav: 0

@@ -1,0 +1,33 @@
+uuid: 35733fc9-b96a-4490-89fc-026e045a38cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.contact_us_map
+  module:
+    - gavias_hook_themer
+    - system
+    - views
+  theme:
+    - notech_subtheme
+third_party_settings:
+  gavias_hook_themer:
+    classes: ''
+id: notech_subtheme_views_block__contact_us_map_block_1
+theme: notech_subtheme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:contact_us_map-block_1'
+settings:
+  id: 'views_block:contact_us_map-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact-us

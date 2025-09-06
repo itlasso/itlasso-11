@@ -9,7 +9,7 @@ dependencies:
 id: searchform
 theme: notech_subtheme
 region: search
-weight: -13
+weight: 0
 provider: null
 plugin: search_form_block
 settings:
