@@ -1,0 +1,21 @@
+uuid: 0749045a-6682-4938-81af-8ba1c8033fea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_priority
+    - node.type.support_ticket_system
+  module:
+    - options
+id: node.support_ticket_system.field_priority
+field_name: field_priority
+entity_type: node
+bundle: support_ticket_system
+label: Priority
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

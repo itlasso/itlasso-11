@@ -30,4 +30,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: "/about-us\r\n/products-services\r\n/website-development\r\n/website-questionnaire\r\n/website-hosting\r\n/technical-services\r\n/contact-us\r\n/ai-your-business\r\n/computer-installation-services\r\n/mobile-app-development\r\n/data-backup\r\n/certifications\r\n/publishing\r\n/shop"
+    pages: "/about-us\r\n/products-services\r\n/website-development\r\n/website-questionnaire\r\n/website-hosting\r\n/technical-services\r\n/contact-us\r\n/ai-your-business\r\n/computer-installation-services\r\n/mobile-app-development\r\n/data-backup\r\n/certifications\r\n/publishing\r\n/shop\r\n/support-tickets\r\n/support-tickets-submissions\r\n/wix"

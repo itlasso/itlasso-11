@@ -7,8 +7,35 @@ dependencies:
     - field.field.node.service.comment
     - node.type.service
   module:
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          aec60eb8-7f06-4eb3-b399-d0076a76de6e:
+            uuid: aec60eb8-7f06-4eb3-b399-d0076a76de6e
+            region: content
+            configuration:
+              id: 'field_block:node:service:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: 9aCFVuDMlDJDCiyAPh2Hc0AVL8aoC9UYs9SNKgrBA5Q
 id: node.service.default

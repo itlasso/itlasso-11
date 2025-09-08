@@ -1,0 +1,19 @@
+uuid: 16ea4f3b-b023-4b54-a209-965278d541be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.support_ticket_system
+id: node.support_ticket_system.field_email
+field_name: field_email
+entity_type: node
+bundle: support_ticket_system
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

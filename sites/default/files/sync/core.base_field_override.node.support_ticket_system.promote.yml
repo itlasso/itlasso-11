@@ -1,0 +1,22 @@
+uuid: c111ee0b-187d-4a6b-8da8-84c2f916172e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.support_ticket_system
+id: node.support_ticket_system.promote
+field_name: promote
+entity_type: node
+bundle: support_ticket_system
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

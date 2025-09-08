@@ -361,6 +361,15 @@
                 0 => '11.2.3',
             ),
         ),
+        'drupal/honeypot' => array(
+            'pretty_version' => '2.2.2',
+            'version' => '2.2.2.0',
+            'reference' => '2.2.2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/honeypot',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/legacy-project' => array(
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',

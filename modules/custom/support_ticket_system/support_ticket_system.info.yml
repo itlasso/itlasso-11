@@ -1,0 +1,5 @@
+name: 'Support Ticket System'
+type: module
+description: 'Provides a support ticket form block and notification system.'
+core_version_requirement: ^10 || ^11
+package: Custom

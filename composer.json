@@ -21,6 +21,7 @@
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
         "drupal/core-vendor-hardening": "^11.2",
+        "drupal/honeypot": "^2.2",
         "drupal/metatag": "^2.0",
         "drupal/simple_gmap": "^4.0",
         "drupal/token": "^1.15",

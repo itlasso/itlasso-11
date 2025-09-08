@@ -1,0 +1,60 @@
+uuid: 69257359-951f-4cb7-8b28-699c088cb18e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.service.body
+    - field.field.node.service.comment
+    - field.field.node.service.layout_builder__layout
+    - node.type.service
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          b750c872-94d4-47af-9272-bec04ebeb0e1:
+            uuid: b750c872-94d4-47af-9272-bec04ebeb0e1
+            region: content
+            configuration:
+              id: 'field_block:node:service:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+_core:
+  default_config_hash: 9aCFVuDMlDJDCiyAPh2Hc0AVL8aoC9UYs9SNKgrBA5Q
+id: node.service.full
+targetEntityType: node
+bundle: service
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  comment: true
+  langcode: true
+  layout_builder__layout: true
+  links: true

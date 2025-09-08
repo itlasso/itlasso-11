@@ -1,0 +1,19 @@
+uuid: cabd4fd9-9dc7-4cf6-8213-cd14d2167d50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.support_ticket_system
+id: node.support_ticket_system.field_name
+field_name: field_name
+entity_type: node
+bundle: support_ticket_system
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
