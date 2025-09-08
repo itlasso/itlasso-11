@@ -1,3 +1,5 @@
 itlasso-11-largefiles/
 .DS_Store
 sites/default/files/**/*.DS_Store
+sites/default/files/css/
+sites/default/files/js/
